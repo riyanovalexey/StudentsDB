@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/groupsFragment">
+
+    <fragment
+        android:id="@+id/groupsFragment"
+        android:name="com.example.studentsdb2.ui.groups.GroupsFragment"
+        android:label="@string/groups" />
+
+    <fragment
+        android:id="@+id/studentsFragment"
+        android:name="com.example.studentsdb2.ui.students.StudentsFragment"
+        android:label="@string/students" />
+
+</navigation> 
